@@ -10,7 +10,7 @@ if(isset($_GET['t'])){
 <h1>DonovanTV Updater</h1>
 <?php
 include "config.php";
-$json = file_get_contents("https://raw.githubusercontent.com/therealdonovan/DonovanTVAPI/main/checkUpdates.txt");
+$json = file_get_contents("https://raw.githubusercontent.com/therealdonovan/DonovanTVAPI/main/latestver.txt");
 $data = json_decode($json);
 $latestVersion = $data->version;
 if (isset($_GET['p'])) {
