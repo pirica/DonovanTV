@@ -57,7 +57,7 @@ echo $data->$getv;
   }
 </script>
 Powered by <a href="https://github.com/therealdonovan/DonovanTV">DonovanTV</a>. <?php
-$thisVersion = "1.0.0";
+$thisVersion = "1.0.1";
 $json = file_get_contents("https://raw.githubusercontent.com/therealdonovan/DonovanTVAPI/main/latestver.txt");
 $data = json_decode($json);
 $latestVersion = $data->version;
