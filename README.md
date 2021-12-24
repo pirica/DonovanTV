@@ -30,6 +30,11 @@ First, you need to download and install XAMPP. This is needed for you to access 
 9. Leave AWebServerOpen but go to your phone's homescreen and open Google Chrome.
 10. Google `What is my IP Address?`. The response should be 4 numbers seperated by dots, copy this.
 11. In the URL bar, type `http://` then paste the numbers you copied. Tap `Go`.
+## Update DonovanTV
+### Built-In Updater (All Versions)
+Visit `localhost/updater.php` to access the updater tool. Enter the password you sat in the config.php file (by default, it's `pass`) and press the button to update.
+### Via Git (Windows XAMPP Version, [Requires Git](https://git-scm.com/downloads))
+Download and run [this script](https://raw.githubusercontent.com/therealdonovan/DonovanTVAPI/main/updatewithgit.bat) to update DonovanTV to the latest version.
 ## Thanks
 ### Code and Software
 - [hls.js](https://www.npmjs.com/package/hls.js) (used to display the live feed)
